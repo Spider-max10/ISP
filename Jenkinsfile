@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "Node18" // Configura una instalación de Node.js en Jenkins
+        nodejs "dockertools" // Configura una instalación de Node.js en Jenkins
     }
 
     stages {
